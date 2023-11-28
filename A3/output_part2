@@ -1,0 +1,27 @@
+The execution of createTable():
+
+new transaction: 1
+recovering existing database
+transaction 1 committed
+new transaction: 2
+transaction 2 committed
+
+
+The execution of PrintTableInfo():
+
+Table tblcat: Field reclength
+Table tblcat: Field tblname
+Table fldcat: Field fldname
+Table fldcat: Field offset
+Table fldcat: Field length
+Table fldcat: Field tblname
+Table fldcat: Field type
+Table viewcat: Field viewname
+Table viewcat: Field viewdef
+Table idxcat: Field fieldname
+Table idxcat: Field indexname
+Table idxcat: Field tablename
+Table customer: Field address
+Table customer: Field customerid
+Table customer: Field name
+

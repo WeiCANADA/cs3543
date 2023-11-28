@@ -1,0 +1,6 @@
+creating new database
+transaction 1 committed
+value at location 20 = 0
+value at location 40 = xyz
+Number of blocks read: 29
+Number of blocks written: 54
