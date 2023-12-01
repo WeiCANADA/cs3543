@@ -7,10 +7,10 @@ public class GroupJoinScan implements Scan {
     private HashTable hashTable;
     private Iterator<Map.Entry<Constant, List<HashTable.Pair<RID, HashTable.AggregateVal>>>> iter;
     private Map.Entry<Constant, List<HashTable.Pair<RID, HashTable.AggregateVal>>> currentEntry;
-    private Scan lhsScan, rhsScan;
+    private TableScan lhsScan, rhsScan;
     private String lhsField, rhsField;
 
-    public GroupJoinScan(Scan lhsScan, Scan rhsScan,
+    public GroupJoinScan(TableScan lhsScan, TableScan rhsScan,
                          String lhsField, String rhsField) {
         this.lhsScan = lhsScan;
         this.rhsScan = rhsScan;
@@ -32,7 +32,7 @@ public class GroupJoinScan implements Scan {
 
         do {
             IntConstant sid = (IntConstant)lhsScan.getVal(lhsField);
-            hashTable.add(sid, ((TableScan) lhsScan).getRid(), new HashTable.AggregateVal());
+            hashTable.add(sid,  lhsScan.getRid(), new HashTable.AggregateVal());
             System.out.println("Added SId to hashTable: " + sid);
         } while (lhsScan.next());
         

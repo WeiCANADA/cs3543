@@ -1,0 +1,45 @@
+new transaction: 1
+recovering existing database
+transaction 1 committed
+new transaction: 2
+Initializing hashTable...
+Added SId to hashTable: 1
+Added SId to hashTable: 2
+Added SId to hashTable: 3
+Added SId to hashTable: 4
+Added SId to hashTable: 5
+Added SId to hashTable: 6
+Added SId to hashTable: 7
+Added SId to hashTable: 8
+Added SId to hashTable: 9
+Updating counts based on enroll records...
+Processing StudentId: 1
+Found matching StudentId: 1
+Incremented count for StudentId: 1
+Processing StudentId: 1
+Found matching StudentId: 1
+Incremented count for StudentId: 1
+Processing StudentId: 2
+Found matching StudentId: 2
+Incremented count for StudentId: 2
+Processing StudentId: 4
+Found matching StudentId: 4
+Incremented count for StudentId: 4
+Processing StudentId: 4
+Found matching StudentId: 4
+Incremented count for StudentId: 4
+Processing StudentId: 6
+Found matching StudentId: 6
+Incremented count for StudentId: 6
+Finished updating counts. Preparing for iteration...
+SId: 1, Count: 2
+SId: 2, Count: 1
+SId: 3, Count: 0
+SId: 4, Count: 2
+SId: 5, Count: 0
+SId: 6, Count: 1
+SId: 7, Count: 0
+SId: 8, Count: 0
+SId: 9, Count: 0
+transaction 2 committed
+

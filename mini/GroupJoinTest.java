@@ -34,19 +34,19 @@ public class GroupJoinTest {
 
         /*  scans for each of the relations student, enroll */
         TableInfo studentTblInfo = mdMgr.getTableInfo("student", tx);
-        Scan studentsScan = new TableScan(studentTblInfo, tx);
+        TableScan studentsScan = new TableScan(studentTblInfo, tx);
 
-        TableInfo enrollTblInfo = mdMgr.getTableInfo("ENROLL", tx);
-        Scan enrollScan = new TableScan(enrollTblInfo, tx);
+        TableInfo enrollTblInfo = mdMgr.getTableInfo("enroll", tx);
+        TableScan enrollScan = new TableScan(enrollTblInfo, tx);
 
 
 
 //Initialize GroupJoinScan with the scans and the hash table.
-        GroupJoinScan groupJoinScan = new GroupJoinScan(studentsScan, enrollScan, "SId", "StudentId");
+        GroupJoinScan groupJoinScan = new GroupJoinScan(studentsScan, enrollScan, "sid", "studentid");
 
         while (groupJoinScan.next()) {
-            int sid = groupJoinScan.getInt("SId");
-            int count = groupJoinScan.getInt("count");
+            int sid = groupJoinScan.getInt("sid");
+            int count = groupJoinScan.getInt("cnt");
             System.out.println("SId: " + sid + ", Count: " + count);    
         }
 
