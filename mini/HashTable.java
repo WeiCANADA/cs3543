@@ -39,9 +39,6 @@ public class HashTable {
         return hashTable.values();
     }
 
-
- 
-
     /**
      * A pair of a record ID and an aggregate value.
      */
@@ -72,14 +69,9 @@ public class HashTable {
         public int getCount() {
             return count; // Get current count
         }
-
-
-
     }
+
     public Set<Map.Entry<Constant, List<Pair<RID, AggregateVal>>>> entrySet() {
         return hashTable.entrySet();
     }
-
-
-
 }

@@ -1,6 +1,7 @@
 package simpledb.query;
 
 import simpledb.record.RID;
+
 import java.util.*;
 
 public class GroupJoinScan implements Scan {
@@ -22,30 +23,30 @@ public class GroupJoinScan implements Scan {
 
     public void beforeFirst() {
         // Initialize the hash table with counts for each SId
-    	System.out.println("Initializing hashTable...");
+        System.out.println("Initializing hashTable...");
         lhsScan.beforeFirst();
-        
+
         if (!lhsScan.next()) {
             System.out.println("No records found in STUDENT table.");
             return;
         }
 
         do {
-            IntConstant sid = (IntConstant)lhsScan.getVal(lhsField);
-            hashTable.add(sid,  lhsScan.getRid(), new HashTable.AggregateVal());
+            IntConstant sid = (IntConstant) lhsScan.getVal(lhsField);
+            hashTable.add(sid, lhsScan.getRid(), new HashTable.AggregateVal());
             System.out.println("Added SId to hashTable: " + sid);
         } while (lhsScan.next());
-        
+
         System.out.println("Updating counts based on enroll records...");
 
         // Update counts based on enroll records
         rhsScan.beforeFirst();
         while (rhsScan.next()) {
-            Constant studentId = (IntConstant)rhsScan.getVal(rhsField);
+            Constant studentId = (IntConstant) rhsScan.getVal(rhsField);
             System.out.println("Processing StudentId: " + studentId);
             for (Map.Entry<Constant, List<HashTable.Pair<RID, HashTable.AggregateVal>>> entry : hashTable.entrySet()) {
                 if (entry.getKey().equals(studentId)) {
-                	System.out.println("Found matching StudentId: " + studentId);
+                    System.out.println("Found matching StudentId: " + studentId);
                     for (HashTable.Pair<RID, HashTable.AggregateVal> pair : entry.getValue()) {
                         pair.second.increment();
                         System.out.println("Incremented count for StudentId: " + studentId);

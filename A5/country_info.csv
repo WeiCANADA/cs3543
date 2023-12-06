@@ -1,0 +1,233 @@
+Country;Capital;Code;Continent
+Afghanistan;Kabul;AFG;Asia
+Albania;Tirana;ALB;Europe
+Algeria;Algiers;DZA;Africa
+American Samoa;Pago Pago;ASM;Oceania
+Andorra;Andorra la Vella;AND;Europe
+Angola;Luanda;AGO;Africa
+Anguilla;The Valley;AIA;Americas
+Antigua and Barbuda;Saint John's;ATG;Americas
+Argentina;Buenos Aires;ARG;Americas
+Armenia;Yerevan;ARM;Asia
+Aruba;Oranjestad;ABW;Americas
+Australia;Canberra;AUS;Oceania
+Austria;Vienna;AUT;Europe
+Azerbaijan;Baku (Baki);AZE;Asia
+Bahamas, The;Nassau;BHS;Americas
+Bahrain;Manama;BHR;Asia
+Bangladesh;Dhaka;BGD;Asia
+Barbados;Bridgetown;BRB;Americas
+Belarus;Minsk;BLR;Europe
+Belgium;Brussels;BEL;Europe
+Belize;Belmopan;BLZ;Americas
+Benin;Porto-Novo ³;BEN;Africa
+Bermuda;Hamilton;BMU;Americas
+Bhutan;Thimphu;BTN;Asia
+Bolivia;La Paz / Sucre;BOL;Americas
+Bosnia and Herzegovina;Sarajevo;BIH;Europe
+Botswana;Gaborone;BWA;Africa
+Brazil;Brasilia;BRA;Americas
+British Virgin Islands;Road Town;VGB;Americas
+Brunei;Bandar Seri Begawan;BRN;Asia
+Bulgaria;Sofia;BGR;Europe
+Burkina Faso;Ouagadougou;BFA;Africa
+Burundi;Bujumbura;BDI;Africa
+Cambodia;Phnom Penh;KHM;Asia
+Cameroon;Yaounde;CMR;Africa
+Canada;Ottawa;CAN;Americas
+Cape Verde;Praia;CPV;Africa
+Cayman Islands;George Town;CYM;Americas
+Central African Republic;Bangui;CAF;Africa
+Chad;N'Djamena;TCD;Africa
+Chile;Santiago;CHL;Americas
+China;Beijing;CHN;Asia
+Christmas Island;The Settlement;CXR;Asia
+Cocos (Keeling) Islands;West Island;CCK;Asia
+Colombia;Bogota;COL;Americas
+Comoros;Moroni;COM;Africa
+Congo, Republic of the;Brazzaville;COG;Africa
+Cook Islands;Avarua;COK;Oceania
+Costa Rica;San Jose;CRI;Americas
+Cote d'Ivoire;Yamoussoukro;CIV;Africa
+Croatia;Zagreb;HRV;Europe
+Cuba;Havana;CUB;Americas
+Cyprus;Nicosia;CYP;Asia
+Czech Republic;Prague;CZE;Europe
+Denmark;Copenhagen;DNK;Europe
+Djibouti;Djibouti;DJI;Africa
+Dominica;Roseau;DMA;Americas
+Dominican Republic;Santo Domingo;DOM;Americas
+Ecuador;Quito;ECU;Americas
+Egypt;Cairo;EGY;Africa
+El Salvador;San Salvador;SLV;Americas
+Equatorial Guinea;Malabo;GNQ;Africa
+Eritrea;Asmara;ERI;Africa
+Estonia;Tallinn;EST;Europe
+Ethiopia;Addis Ababa;ETH;Africa
+Falkland Islands (Islas Malvinas);Stanley;FLK;Americas
+Faroe Islands;Torshavn;FRO;Europe
+Fiji;Suva;FJI;Oceania
+Finland;Helsinki;FIN;Europe
+France;Paris;FRA;Europe
+French Guiana;Cayenne;GUF;Americas
+French Polynesia;Papeete;PYF;Oceania
+Gabon;Libreville;GAB;Africa
+Gambia, The;Banjul;GMB;Africa
+Georgia;T'bilisi;GEO;Asia
+Germany;Berlin;DEU;Europe
+Ghana;Accra;GHA;Africa
+Gibraltar;Gibraltar;GIB;Europe
+Greece;Athens;GRC;Europe
+Greenland;Nuuk (Godthab);GRL;Americas
+Grenada;Saint George's;GRD;Americas
+Guadeloupe;Basse-Terre;GLP;Americas
+Guam;Hagatna (Agana);GUM;Oceania
+Guatemala;Guatemala;GTM;Americas
+Guernsey;Saint Peter Port;--;Europe
+Guinea;Conakry;GIN;Africa
+Guinea-Bissau;Bissau;GNB;Africa
+Guyana;Georgetown;GUY;Americas
+Haiti;Port-au-Prince;HTI;Americas
+Holy See (Vatican City);Vatican City;VAT;Europe
+Honduras;Tegucigalpa;HND;Americas
+Hungary;Budapest;HUN;Europe
+Iceland;Reykjavik;ISL;Europe
+India;New Delhi;IND;Asia
+Indonesia;Jakarta;IDN;Asia
+Iran;Tehran;IRN;Asia
+Iraq;Baghdad;IRQ;Asia
+Ireland;Dublin;IRL;Europe
+Israel;Jerusalem;ISR;Asia
+Italy;Rome;ITA;Europe
+Jamaica;Kingston;JAM;Americas
+Jan Mayen;-;--;Europe
+Japan;Tokyo;JPN;Asia
+Jersey;Saint Helier;--;Europe
+Jordan;Amman;JOR;Asia
+Kazakhstan;Astana (Akmola);KAZ;Asia
+Kenya;Nairobi;KEN;Africa
+Kiribati;Tarawa;KIR;Oceania
+Korea, North;P'yongyang;PRK;Asia
+Korea, South;Seoul;KOR;Asia
+Kuwait;Kuwait;KWT;Asia
+Kyrgyzstan;Bishkek;KGZ;Asia
+Laos;Vientiane;LAO;Asia
+Latvia;Riga;LVA;Europe
+Lebanon;Beirut;LBN;Asia
+Lesotho;Maseru;LSO;Africa
+Liberia;Monrovia;LBR;Africa
+Libya;Tripoli;LBY;Africa
+Liechtenstein;Vaduz;LIE;Europe
+Lithuania;Vilnius;LTU;Europe
+Luxembourg;Luxembourg;LUX;Europe
+Macedonia;Skopje;MKD;Europe
+Madagascar;Antananarivo;MDG;Africa
+Malawi;Lilongwe;MWI;Africa
+Malaysia;Kuala Lumpur;MYS;Asia
+Maldives;Male (Maale);MDV;Asia
+Mali;Bamako;MLI;Africa
+Malta;Valletta;MLT;Europe
+Man, Isle of;Douglas;--;Europe
+Marshall Islands;Majuro;MHL;Oceania
+Martinique;Fort-de-France;MTQ;Americas
+Mauritania;Nouakchott;MRT;Africa
+Mauritius;Port Louis;MUS;Africa
+Mayotte;Mamoutzou;MYT;Africa
+Mexico;Mexico;MEX;Americas
+Micronesia, Federated States of;Palikir;FSM;Oceania
+Moldova;Chisinau;MDA;Europe
+Monaco;Monaco;MCO;Europe
+Mongolia;Ulaanbaatar;MNG;Asia
+Montserrat;Plymouth;MSR;Americas
+Morocco;Rabat;MAR;Africa
+Mozambique;Maputo;MOZ;Africa
+Myanmar (Burma);Rangoon (Yangon);MMR;Asia
+Namibia;Windhoek;NAM;Africa
+Nauru;no official capital;NRU;Oceania
+Nepal;Kathmandu;NPL;Asia
+Netherlands;Amsterdam;NLD;Europe
+Netherlands Antilles;Willemstad;ANT;Americas
+New Caledonia;Noumea;NCL;Oceania
+New Zealand;Wellington;NZL;Oceania
+Nicaragua;Managua;NIC;Americas
+Niger;Niamey;NER;Africa
+Nigeria;Abuja;NGA;Africa
+Niue;Alofi;NIU;Oceania
+Norfolk Island;Kingston;NFK;Oceania
+Northern Mariana Islands;Saipan;MNP;Oceania
+Norway;Oslo;NOR;Europe
+Oman;Muscat;OMN;Asia
+Pakistan;Islamabad;PAK;Asia
+Palau;Koror;PLW;Oceania
+Palestine; ;--;Asia
+Panama;Panama;PAN;Americas
+Papua New Guinea;Port Moresby;PNG;Oceania
+Paraguay;Asuncion;PRY;Americas
+Peru;Lima;PER;Americas
+Philippines;Manila;PHL;Asia
+Pitcairn Islands;Adamstown;PCN;Oceania
+Poland;Warsaw;POL;Europe
+Portugal;Lisbon;PRT;Europe
+Puerto Rico;San Juan;PRI;Americas
+Qatar;Doha;QAT;Asia
+Reunion;Saint-Denis;REU;Africa
+Romania;Bucharest;ROM;Europe
+Russia;Moscow;RUS;Asia
+Rwanda;Kigali;RWA;Africa
+Saint Kitts and Nevis;Basseterre;KNA;Americas
+Saint Lucia;Castries;LCA;Americas
+Saint Pierre and Miquelon;Saint-Pierre;SPM;Americas
+Saint Vincent and the Grenadines;Kingstown;VCT;Americas
+San Marino;San Marino;SMR;Europe
+Sao Tome and Principe;Sao Tome;STP;Africa
+Saudi Arabia;Riyadh;SAU;Asia
+Senegal;Dakar;SEN;Africa
+Serbia and Montenegro;Belgrade / Podgorica;--;Europe
+Seychelles;Victoria;SYC;Africa
+Sierra Leone;Freetown;SLE;Africa
+Singapore;Singapore;SGP;Asia
+Slovakia;Bratislava;SVK;Europe
+Slovenia;Ljubljana;SVN;Europe
+Solomon Islands;Honiara;SLB;Oceania
+Somalia;Mogadishu;SOM;Africa
+South Africa;Pretoria ¹;ZAF;Africa
+Spain;Madrid;ESP;Europe
+Sri Lanka;Colombo;LKA;Asia
+Sudan;Khartoum;SDN;Africa
+Suriname;Paramaribo;SUR;Americas
+Svalbard;Longyearbyen;SJM;Europe
+Swaziland;Mbabane ²;SWZ;Africa
+Sweden;Stockholm;SWE;Europe
+Switzerland;Bern;CHE;Europe
+Syria;Damascus;SYR;Asia
+Taiwan;Taipei;TWN;Asia
+Tajikistan;Dushanbe;TJK;Asia
+Tanzania;Dar es Salaam;TZA;Africa
+Thailand;Bangkok;THA;Asia
+Togo;Lome;TGO;Africa
+Tokelau;none;TKL;Oceania
+Tonga;Nuku'alofa;TON;Oceania
+Trinidad and Tobago;Port-of-Spain;TTO;Americas
+Tunisia;Tunis;TUN;Africa
+Turkey;Ankara;TUR;Asia
+Turkmenistan;Ashgabat;TKM;Asia
+Turks and Caicos Islands;Grand Turk;TCA;Americas
+Tuvalu;Funafuti;TUV;Oceania
+Uganda;Kampala;UGA;Africa
+Ukraine;Kiev;UKR;Europe
+United Arab Emirates;Abu Dhabi;ARE;Asia
+United Kingdom;London;GBR;Europe
+United States;Washington, DC;USA;Americas
+Uruguay;Montevideo;URY;Americas
+Uzbekistan;Tashkent (Toshkent);UZB;Asia
+Vanuatu;Port-Vila;VUT;Oceania
+Venezuela;Caracas;VEN;Americas
+Vietnam;Hanoi;VNM;Asia
+Virgin Islands;Charlotte Amalie;VIR;Americas
+Wallis and Futuna;Mata-Utu (on Ile Uvea);WLF;Oceania
+Western Sahara;none;ESH;Africa
+Western Samoa;Apia;WSM;Oceania
+Yemen;Sanaa;YEM;Asia
+Zaire (Dem Rep of Congo);Kinshasa;ZAR;Africa
+Zambia;Lusaka;ZWB;Africa
+Zimbabwe;Harare;ZWE;Africa
